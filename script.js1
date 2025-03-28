@@ -1,0 +1,3 @@
+function bookAppointment() {
+    alert("Thank you for choosing Glamour Beauty Salon! Appointment booking feature is coming soon.");
+}

@@ -1,0 +1,136 @@
+.top-banner {
+    background-color: #6e0955;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Logo / Title Styling */
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.logo span{
+    color:#fffacd;
+}
+
+/* Navigation Menu on Separate Line */
+.main-nav {
+    background-color: #ff69b4;
+    padding: 10px 0;
+}
+ .main-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.popup {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #28a745;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    font-size: 16px;
+    animation: fadeInOut 3s ease forwards;
+    z-index: 1000;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; transform: translateY(20px); }
+    10% { opacity: 1; transform: translateY(0); }
+    90% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(20px); }
+}
+
+
+.main-nav ul li {
+    display: inline;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+.main-nav ul li a:hover,
+.main-nav ul li a.active {
+    text-decoration: underline;
+    color: #fffacd;
+}
+
+
+/* Hero Section */
+.hero {
+    background: url('images/hero.jpg') no-repeat center center/
+    cover;
+    padding: 100px 20px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+
+/* Contact Page */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+.contact-container {
+    max-width: 700px;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #ff69b4;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Footer */
+footer {
+    background: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    padding-top: 20px;
+}
+table{
+    margin-bottom: 30px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+}
+
